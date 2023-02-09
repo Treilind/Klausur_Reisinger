@@ -19,7 +19,7 @@ public abstract class LogEntryAnalyzer {
         this.logEntries = logEntries;
     }
 
-    public static LogEntry createTestLogEntry()
+    public LogEntry createTestLogEntry()
     {
         String[] appNames = new String[] {"App", "Website", "Task1", "Task2", "Task3", "Service1"};
         String[] logLevels = new String[] {"debug", "info", "warning", "error", "fatal", "ente"};
